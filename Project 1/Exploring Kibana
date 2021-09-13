@@ -1,0 +1,68 @@
+Answer the following questions:
+
+
+In the last 7 days, how many unique visitors were located in India?
+  -There were 226 unique visitors in the last 7 days.
+
+In the last 24 hours, of the visitors from China, how many were using Mac OSX?
+  -In the last 24 hours there were 13 visitors that were using Mac OSX
+
+In the last 2 days, what percentage of visitors received 404 errors? How about 503 errors?
+  -In tge last 2 days 3.448% of users had a 404 error and 5.747% of users had a 503 error
+
+In the last 7 days, what country produced the majority of the traffic on the website?
+  -In the last 7 days china has produced the majority of the traffic.
+
+Of the traffic that's coming from that country, what time of day had the highest amount of activity?
+  -The times that had the most traffic was around 10 a.m. and 12 p.m.
+
+List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type).
+  -gz -A compressed archive file that uses GNU zip compression
+  -css -A file that describes how HTML elements are displayed
+  -zip -A compressed file that can contain multiple files in one location
+  -deb -An executible file that uses apt to execute
+  -rpm -A packet manager that stores installation packages
+
+Now that you have a feel for the data, Let's dive a bit deeper. Look at the chart that shows Unique Visitors Vs. Average Bytes.
+
+Locate the time frame in the last 7 days with the most amount of bytes (activity).
+In your own words, is there anything that seems potentially strange about this activity?
+ -The strange thing about the highest adverage byte count is that it was caused by 1 unique visitor.
+
+Filter the data by this event.
+
+What is the timestamp for this event?
+  -The time stamp is 8 p.m.
+What kind of file was downloaded?
+  -A RPM file was downloaded
+From what country did this activity originate?
+  -The activity originated in India
+What HTTP response codes were encountered by this visitor?
+  -The visitor encountered a 200 ok code
+
+
+Switch to the Kibana Discover page to see more details about this activity.
+
+What is the source IP address of this activity?
+  -The IP address is 35.143.166.159
+What are the geo coordinates of this activity?
+  -"Lat" 43.34120996296406
+  -"Lon" -73.61030758358538
+What OS was the source machine running?
+  -The machine was running Windows 8
+What is the full URL that was accessed?
+  -https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-6.3.2-i686.rpm
+From what website did the visitor's traffic originate?
+  -http://facebook.com/success/jay-c-buckey
+
+
+Finish your investigation with a short overview of your insights.
+
+What do you think the user was doing?
+  -The user could have been downloading a large linux file.
+Was the file they downloaded malicious? If not, what is the file used for?
+  -It is unknown if the file is malicious. The file could be used to set up a large amount of computers.
+Is there anything that seems suspicious about this activity?
+  -I is suspicous that the average amount of bytes that were downloaded were so high dispite the fact that it was only one person.
+Is any of the traffic you inspected potentially outside of compliance guidlines?
+-Facebook might not let its users to download large files from its website.
